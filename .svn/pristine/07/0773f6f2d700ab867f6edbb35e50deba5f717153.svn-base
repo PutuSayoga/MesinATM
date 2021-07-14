@@ -1,0 +1,37 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package projekakhirprakpemdas_a;
+
+import java.util.List;
+import java.util.ArrayList;
+
+/**
+ *
+ * @author Sayoga
+ */
+public class Akun {
+    
+    List<Akun> akunATM = new ArrayList<Akun>();
+    
+    String username;
+    int pin;
+    String bank;
+    String noRek;
+    int saldo;
+    
+    public Akun(String username, int pin, String bank, String noRek, int saldo){
+        this.username = username;
+        this.pin = pin;
+        this.bank = bank;
+        this.noRek = noRek;
+        this.saldo = saldo;
+    }
+    
+    public static void setAkun(){
+        Akun("Okza", 123456, "ABC", "00000000", 500000);
+        
+    }
+}

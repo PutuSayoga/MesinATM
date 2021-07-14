@@ -1,0 +1,25 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package projekakhirprakpemdas_a;
+
+/**
+ *
+ * @author Sayoga
+ */
+public class ATM {
+
+    public static void Daftar(String username, int pin){
+        
+    }
+    
+    public static void execute(){
+        
+    }
+    
+    public static void main(String[] args) {
+        execute();
+    }
+}

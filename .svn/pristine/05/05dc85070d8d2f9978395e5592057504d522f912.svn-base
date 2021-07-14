@@ -1,0 +1,58 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package projekakhirprakpemdas_a;
+
+/**
+ *
+ * @author Sayoga
+ */
+public class ATM {
+    String[][] akun = new String [20][5];
+    
+    public void setAkunAwal(){
+        akun[0][0] = "Ozka";
+        akun[0][1] = "123456";
+        akun[0][2] = "ABC";
+        akun[0][3] = "00000000";
+        akun[0][4] = "500000";
+        
+        akun[1][0] = "Farhan";
+        akun[1][1] = "234567";
+        akun[1][2] = "ABC";
+        akun[1][3] = "00000001";
+        akun[1][4] = "2000000";
+        
+        akun[2][0] = "Syarief";
+        akun[2][1] = "345678";
+        akun[2][2] = "Diriman";
+        akun[2][3] = "11111110";
+        akun[2][4] = "1500000";
+        
+        akun[3][0] = "Titus";
+        akun[3][1] = "456789";
+        akun[3][2] = "IBN";
+        akun[3][3] = "22222202";
+        akun[3][4] = "700000";
+        
+        akun[4][0] = "Darell";
+        akun[4][1] = "567890";
+        akun[4][2] = "IRB";
+        akun[4][3] = "33333033";
+        akun[4][4] = "100000000";
+    }
+
+    public static void Daftar(String username, int pin){
+        
+    }
+    
+    public static void execute(){
+        
+    }
+    
+    public static void main(String[] args) {
+        execute();
+    }
+}
